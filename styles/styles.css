@@ -317,14 +317,14 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
   width: 75%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 60%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .kot {
+  width: 70%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .node {
+.about-stats .progress-bars .progress-bar .progress-con .progress .ds {
   width: 87%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 70%;
+  width: 90%;
 }
 
 .stat-title {
@@ -474,7 +474,7 @@ section {
 
 .contact-content-con {
   display: flex;
-  padding-top: 3.5rem;
+  padding-top: 0.5rem;
 }
 .contact-content-con .left-contact {
   flex: 2;
