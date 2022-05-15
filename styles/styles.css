@@ -630,6 +630,11 @@ section {
 }
 .main-btn .btn-text {
   padding: 0 2rem;
+  background-color: transparent;
+  font-size: 16px;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
 }
 .main-btn .btn-icon {
   background-color: var(--color-secondary);
