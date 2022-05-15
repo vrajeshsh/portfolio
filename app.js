@@ -8,9 +8,7 @@
             document.getElementById(button.dataset.id).classList.add("active");
         })
     });
-    document.querySelector(".theme-btn").addEventListener("click", () => {
-        document.body.classList.toggle("light-mode");
-    })
+    
 })();
 
 function getInputValue(){
@@ -22,7 +20,10 @@ function getInputValue(){
 }
 let popup = document.getElementById("popup");
 function openPopup(){
+    var form = document.getElementById("contact-form");
+    form.reset();
     popup.classList.add("open-popup");
+
 }
 
 function closePopup(){
