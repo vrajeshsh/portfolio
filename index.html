@@ -360,7 +360,7 @@ fascinating. My natural curiosity for computers is what drove me toward my compu
                     <div class="left-contact">
                         
                         <p>
-                            Contact me for any collaborations, inquiries or general correspondence
+                            Contact me for any collaborations, inquiries or general correspondence.
                         </p>
                         <div class="contact-info">
                             <div class="contact-item">
@@ -392,20 +392,11 @@ fascinating. My natural curiosity for computers is what drove me toward my compu
                             </div>
                             <div class="contact-item">
                                 <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
+                                    <i class="fas fa-mobile"></i>
                                     <span>Mobile Number</span>
                                 </div>
                                 <p>
                                     <span>: +1 (540) 824 8829</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-globe-africa"></i>
-                                    <span>Languages</span>
-                                </div>
-                                <p>
-                                    <span>: English, Hindi</span>
                                 </p>
                             </div>
                         </div>
@@ -424,22 +415,30 @@ fascinating. My natural curiosity for computers is what drove me toward my compu
                         </div>
                     </div>
                     <div class="right-contact">
-                        <form action="" class="contact-form">
+                        <form action="https://formsubmit.co/vrajeshshah58@gmail.com" class="contact-form" method="POST">
                             <div class="input-control i-c-2">
                                 <input type="text" required placeholder="Name">
                                 <input type="email" required placeholder="Email">
+
                             </div>
                             <div class="input-control">
-                                <input type="text" required placeholder="Subject">
+                                <input type="text" id ="contact_subject" required placeholder="Subject">
+                                <input type="hidden" name="_subject" value="getInputValue()">
                             </div>
                             <div class="input-control">
                                 <textarea name="" id="" cols="15" rows="8" placeholder="Type Message Here..."></textarea>
                             </div>
-                            <div class="submit-btn">
-                                <a href="https://drive.google.com/uc?export=download&id=1WLNjY9g8P6jdQZuFHcViixX8GK0kU9rE" class="main-btn">
-                                    <span class="btn-text">Download CV</span>
-                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                            <div class="submit-btn" onclick="openPopup()">
+                                <a href="#" class="main-btn">
+                                    <span class="btn-text">Submit</span>
+                                    <span class="btn-icon"><i class="fa fa-arrow-circle-right"></i></span>
                                 </a>
+                            </div>
+                            <div class="popup" id = "popup">
+                                <img src="img/tick.png">
+                                <h2>Thankyou</h2>
+                                <p>Your query has been submitted successfully!</p>
+                                <button type = "button" onclick="closePopup()">OK</button>
                             </div>
                         </form>
                     </div>
