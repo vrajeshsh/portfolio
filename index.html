@@ -495,6 +495,22 @@ fascinating. My natural curiosity for computers is what drove me toward my compu
     </div>
     
     <script src="app.js"></script>
+<!-- include the loader library script -->
+<script src="./lex-web-ui-loader.js"></script>
+<script>
+  /*
+    The loader library creates a global object named ChatBotUiLoader
+    It includes the FullPageLoader constructor
+    An instance of FullPageLoader has the load function which kicks off
+    the load process
+  */
+
+  // The following statement instantiate FullPageLoader and
+  // calls the load function.
+  // It is assumed that the configuration is present in the
+  // default JSON file: ./lex-web-ui-loader-config.json
+  new ChatBotUiLoader.FullPageLoader().load();
+</script>
     <!-- <script src="particles.js"></script> -->
 </body>
 </html>
